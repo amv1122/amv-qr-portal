@@ -1,0 +1,14 @@
+{
+  "name": "amv-qr-generator",
+  "version": "1.0.0",
+  "description": "QR Code Generator for amv whatsapp bot",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "express": "^4.19.2",
+    "qrcode": "^1.5.3"
+  }
+}
